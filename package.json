@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-exemplo1",
+  "version": "1.0.0",
+  "description": "Projeto de modelo para soluções Fullstack: ToDo List(MERN Stack): ToDo App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Rodolfo Nei",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}
